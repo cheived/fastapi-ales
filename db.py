@@ -10,7 +10,7 @@ def get_utc_now():
     return datetime.utcnow()
 
 
-SQLALCHEMY_DATABASE_URL = "postgresql://postgres:postgres@localhost:5432/postgres"
+SQLALCHEMY_DATABASE_URL = "postgres://ales_user:1yvzuHdq5sDTjQZZixRegojOfaiM4vJp@dpg-cplltajgbbvc738qls8g-a.oregon-postgres.render.com/ales"
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
 
 
